@@ -1,0 +1,599 @@
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load baskerville
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load bask-apps/test
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+	Baskerville test applications. These may change or be removed without warning.
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Miniconda3/4.10.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Miniconda3/4.10.3
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ conda init bash
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin/conda
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda-env
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/activate
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/deactivate
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/etc/profile.d/conda.sh
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/etc/fish/conf.d/conda.fish
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/shell/condabin/Conda.psm1
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/shell/condabin/conda-hook.ps1
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/etc/profile.d/conda.csh
+no change     /bask/homes/r/ropj6012/.bashrc
+No action taken.
++ source /bask/homes/r/ropj6012/.bashrc
+++ '[' -f /etc/bashrc ']'
+++ . /etc/bashrc
++++ '[' -z '' ']'
++++ BASHRCSOURCED=Y
++++ '[' '' ']'
++++ shopt -q login_shell
++++ '[' 102269 -gt 199 ']'
+++++ /usr/bin/id -gn
+++++ /usr/bin/id -un
++++ '[' users = ropj6012 ']'
++++ umask 022
++++ SHELL=/bin/bash
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/00-bask-restore-home-context.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/00-bask-restore-home-context.sh
+++++ restorecon /bask/homes/r/ropj6012
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/00-modulepath.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/00-modulepath.sh
+++++ '[' -z /bask/apps/test/EL8-ice/modules/all:/bask/apps/live/EL8-ice/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/bask/apps/system/modules ']'
+++++ :
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'grep=grep --color=auto'
+++++ alias 'egrep=egrep --color=auto'
+++++ alias 'fgrep=fgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorls.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorls.sh
+++++ '[' '!' -t 0 ']'
+++++ return
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorxzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorxzgrep.sh
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'xzgrep=xzgrep --color=auto'
+++++ alias 'xzegrep=xzegrep --color=auto'
+++++ alias 'xzfgrep=xzfgrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/colorzgrep.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/colorzgrep.sh
+++++ '[' -f /usr/libexec/grepconf.sh ']'
+++++ /usr/libexec/grepconf.sh -c
+++++ alias 'zgrep=zgrep --color=auto'
+++++ alias 'zfgrep=zfgrep --color=auto'
+++++ alias 'zegrep=zegrep --color=auto'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/gawk.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/gawk.sh
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/gpfs.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/gpfs.sh
+++++ export PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/lang.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/lang.sh
+++++ '[' -n en_GB.UTF-8 ']'
+++++ LANG_backup=en_GB.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /etc/locale.conf ']'
++++++ /usr/bin/sed -r -e 's/^[[:blank:]]*([[:upper:]_]+)=([[:print:][:digit:]\._-]+|"[[:print:][:digit:]\._-]+")/export \1=\2/;t;d' /etc/locale.conf
+++++ eval export 'LANG="en_GB.UTF-8"'
++++++ export LANG=en_GB.UTF-8
++++++ LANG=en_GB.UTF-8
+++++ for config in /etc/locale.conf "${HOME}/.i18n"
+++++ '[' -f /bask/homes/r/ropj6012/.i18n ']'
+++++ '[' -n en_GB.UTF-8 ']'
+++++ LANG=en_GB.UTF-8
+++++ unset LANG_backup config
+++++ '[' -n '' ']'
+++++ '[' -n en_GB.UTF-8 ']'
+++++ '[' dumb = linux ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/less.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/less.sh
+++++ '[' -z '||/usr/bin/lesspipe.sh %s' ']'
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/modules.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/modules.sh
+++++ . /etc/profile.d/00-modulepath.sh
++++++ '[' -z /bask/apps/test/EL8-ice/modules/all:/bask/apps/live/EL8-ice/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/bask/apps/system/modules ']'
++++++ :
+++++ '[' -z '' ']'
+++++ LMOD_ALLOW_ROOT_USE=yes
+++++ '[' -n '' ']'
+++++ '[' yes '!=' yes ']'
+++++ '[' -z /usr/share/modulefiles ']'
+++++ findExec READLINK_CMD /usr/bin/readlink readlink
+++++ Nm=READLINK_CMD
+++++ confPath=/usr/bin/readlink
+++++ execNm=readlink
+++++ eval READLINK_CMD=/usr/bin/readlink
++++++ READLINK_CMD=/usr/bin/readlink
+++++ '[' '!' -x /usr/bin/readlink ']'
+++++ unset Nm confPath execNm
+++++ findExec PS_CMD /usr/bin/ps ps
+++++ Nm=PS_CMD
+++++ confPath=/usr/bin/ps
+++++ execNm=ps
+++++ eval PS_CMD=/usr/bin/ps
++++++ PS_CMD=/usr/bin/ps
+++++ '[' '!' -x /usr/bin/ps ']'
+++++ unset Nm confPath execNm
+++++ findExec EXPR_CMD /usr/bin/expr expr
+++++ Nm=EXPR_CMD
+++++ confPath=/usr/bin/expr
+++++ execNm=expr
+++++ eval EXPR_CMD=/usr/bin/expr
++++++ EXPR_CMD=/usr/bin/expr
+++++ '[' '!' -x /usr/bin/expr ']'
+++++ unset Nm confPath execNm
+++++ findExec BASENAME_CMD /usr/bin/basename basename
+++++ Nm=BASENAME_CMD
+++++ confPath=/usr/bin/basename
+++++ execNm=basename
+++++ eval BASENAME_CMD=/usr/bin/basename
++++++ BASENAME_CMD=/usr/bin/basename
+++++ '[' '!' -x /usr/bin/basename ']'
+++++ unset Nm confPath execNm
+++++ unset -f findExec
+++++ '[' -f /proc/787970/exe ']'
++++++ /usr/bin/readlink /proc/787970/exe
+++++ my_shell=/usr/bin/bash
++++++ /usr/bin/expr /usr/bin/bash : '-*\(.*\)'
+++++ my_shell=/usr/bin/bash
++++++ /usr/bin/basename /usr/bin/bash
+++++ my_shell=bash
+++++ case ${my_shell} in
+++++ '[' -f /usr/share/lmod/lmod/init/bash ']'
+++++ . /usr/share/lmod/lmod/init/bash
++++++ '[' -z '' ']'
++++++ case "$-" in
++++++ __lmod_vx=x
++++++ '[' -n x ']'
++++++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/usr/share/lmod/lmod/init/bash)
+Shell debugging restarted
++++++ unset __lmod_vx
+++++ unset my_shell PS_CMD EXPR_CMD BASENAME_CMD MODULEPATH_INIT LMOD_ALLOW_ROOT_USE READLINK_CMD
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/ssh-x-forwarding.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/ssh-x-forwarding.sh
+++++ '[' -z '' ']'
+++++ return
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/vim.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/vim.sh
+++++ '[' -n '4.4.20(1)-release' -o -n '' -o -n '' ']'
++++++ /usr/bin/id -u
+++++ '[' 102269 -le 200 ']'
+++++ alias vi
+++++ alias vi=vim
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/which2.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/which2.sh
+++++ case "$(basename $(readlink /proc/$$/exe))" in
+++++++ readlink /proc/787970/exe
++++++ basename /usr/bin/bash
+++++ which_declare='declare -f'
+++++ which_opt=-f
+++++ export which_declare
+++++ export -f which
++++ for i in /etc/profile.d/*.sh
++++ '[' -r /etc/profile.d/zz-99-default-modules.sh ']'
++++ '[' '' ']'
++++ . /etc/profile.d/zz-99-default-modules.sh
+++++ CLUSTER_MODULES=/bask/apps/system/modules
+++++ [[ 102269 -gt 1000 ]]
+++++ '[' -d /bask/apps ']'
+++++ export LMOD_RC=/bask/apps/system/software/lmod/lmodrc.lua
+++++ LMOD_RC=/bask/apps/system/software/lmod/lmodrc.lua
+++++ export LMOD_CACHED_LOADS=yes
+++++ LMOD_CACHED_LOADS=yes
+++++ export LMOD_SHORT_TIME=86400
+++++ LMOD_SHORT_TIME=86400
+++++ export LMOD_DISABLE_SAME_NAME_AUTOSWAP=yes
+++++ LMOD_DISABLE_SAME_NAME_AUTOSWAP=yes
+++++ export LMOD_AUTO_SWAP=no
+++++ LMOD_AUTO_SWAP=no
+++++ export LMOD_DISABLE_NAME_AUTOSWAP=yes
+++++ LMOD_DISABLE_NAME_AUTOSWAP=yes
+++++ export LMOD_SITE_MSG_FILE=/bask/apps/system/software/lmod/lmod-messages.lua
+++++ LMOD_SITE_MSG_FILE=/bask/apps/system/software/lmod/lmod-messages.lua
+++++ '[' -z /bask/apps/test/EL8-ice/modules/all:/bask/apps/live/EL8-ice/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/bask/apps/system/modules ']'
+++++ echo /bask/apps/test/EL8-ice/modules/all:/bask/apps/live/EL8-ice/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/bask/apps/system/modules
+++++ grep -q /bask/apps/system/modules
+++++ [[ -e /bask/homes/r/ropj6012/.lmod.d/.cache ]]
+++++ [[ -z 1 ]]
+++++ module refresh
+++++ '[' -z '' ']'
+++++ case "$-" in
+++++ __lmod_sh_dbg=x
+++++ '[' -n x ']'
+++++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
+++++ unset __lmod_sh_dbg
+++++ return 0
++++ unset i
++++ unset -f pathmunge
+++ [[ /usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin =~ /bask/homes/r/ropj6012/\.local/bin:/bask/homes/r/ropj6012/bin: ]]
+++ export PATH
++++ /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda shell.bash hook
+++ __conda_setup='export CONDA_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
+++ '[' 0 -eq 0 ']'
+++ eval 'export CONDA_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python'\''
+
+# Copyright (C) 2012 Anaconda, Inc
+# SPDX-License-Identifier: BSD-3-Clause
+
+__add_sys_prefix_to_path() {
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA}" ] && [ -n "${WINDIR+x}" ]; then
+        SYSP=$(\dirname "${CONDA_EXE}")
+    else
+        SYSP=$(\dirname "${CONDA_EXE}")
+        SYSP=$(\dirname "${SYSP}")
+    fi
+
+    if [ -n "${WINDIR+x}" ]; then
+        PATH="${SYSP}/bin:${PATH}"
+        PATH="${SYSP}/Scripts:${PATH}"
+        PATH="${SYSP}/Library/bin:${PATH}"
+        PATH="${SYSP}/Library/usr/bin:${PATH}"
+        PATH="${SYSP}/Library/mingw-w64/bin:${PATH}"
+        PATH="${SYSP}:${PATH}"
+    else
+        PATH="${SYSP}/bin:${PATH}"
+    fi
+    \export PATH
+}
+
+__conda_exe() (
+    __add_sys_prefix_to_path
+    "$CONDA_EXE" $_CE_M $_CE_CONDA "$@"
+)
+
+__conda_hashr() {
+    if [ -n "${ZSH_VERSION:+x}" ]; then
+        \rehash
+    elif [ -n "${POSH_VERSION:+x}" ]; then
+        :  # pass
+    else
+        \hash -r
+    fi
+}
+
+__conda_activate() {
+    if [ -n "${CONDA_PS1_BACKUP:+x}" ]; then
+        # Handle transition from shell activated with conda <= 4.3 to a subsequent activation
+        # after conda updated to >= 4.4. See issue #6173.
+        PS1="$CONDA_PS1_BACKUP"
+        \unset CONDA_PS1_BACKUP
+    fi
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix "$@")" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+__conda_reactivate() {
+    \local ask_conda
+    ask_conda="$(PS1="${PS1:-}" __conda_exe shell.posix reactivate)" || \return
+    \eval "$ask_conda"
+    __conda_hashr
+}
+
+conda() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|deactivate)
+            __conda_activate "$@"
+            ;;
+        install|update|upgrade|remove|uninstall)
+            __conda_exe "$@" || \return
+            __conda_reactivate
+            ;;
+        *)
+            __conda_exe "$@"
+            ;;
+    esac
+}
+
+if [ -z "${CONDA_SHLVL+x}" ]; then
+    \export CONDA_SHLVL=0
+    # In dev-mode CONDA_EXE is python.exe and on Windows
+    # it is in a different relative location to condabin.
+    if [ -n "${_CE_CONDA:+x}" ] && [ -n "${WINDIR+x}" ]; then
+        PATH="$(\dirname "$CONDA_EXE")/condabin${PATH:+":${PATH}"}"
+    else
+        PATH="$(\dirname "$(\dirname "$CONDA_EXE")")/condabin${PATH:+":${PATH}"}"
+    fi
+    \export PATH
+
+    # We'\''re not allowing PS1 to be unbound. It must at least be set.
+    # However, we'\''re not exporting it, which can cause problems when starting a second shell
+    # via a first shell (i.e. starting zsh from bash).
+    if [ -z "${PS1+x}" ]; then
+        PS1=
+    fi
+fi
+
+conda activate base'
++++ export CONDA_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
++++ CONDA_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python
++++ CONDA_PYTHON_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python
++++ '[' -z x ']'
++++ conda activate base
++++ local cmd=activate
++++ case "$cmd" in
++++ __conda_activate activate base
++++ '[' -n '' ']'
++++ local ask_conda
+++++ PS1=
+++++ __conda_exe shell.posix activate base
+++++ __add_sys_prefix_to_path
+++++ '[' -n '' ']'
++++++ dirname /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
+++++ SYSP=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin
++++++ dirname /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin
+++++ SYSP=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3
+++++ '[' -n '' ']'
+++++ PATH=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ export PATH
+++++ /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda shell.posix activate base
++++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
++++ eval 'PS1='\''(base) '\''
+export PATH='\''/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\'''
+++++ PS1='(base) '
+++++ export PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++++ export CONDA_SHLVL=1
+++++ CONDA_SHLVL=1
+++++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++++ CONDA_PROMPT_MODIFIER='(base) '
++++ __conda_hashr
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ hash -r
+++ unset __conda_setup
++ CONDA_ENV_PATH=/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
++ conda activate /bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate /bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate /bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
+++ __add_sys_prefix_to_path
+++ '[' -n '' ']'
++++ dirname /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
+++ SYSP=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin
++++ dirname /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin
+++ SYSP=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3
+++ '[' -n '' ']'
+++ PATH=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export PATH
+++ /bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda shell.posix activate /bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
++ ask_conda='PS1='\''(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '\''
+export PATH='\''/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env'\''
+export CONDA_PROMPT_MODIFIER='\''(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '\''
+export CONDA_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python'\''
+export CONDA_PREFIX_1='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3'\'''
++ eval 'PS1='\''(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '\''
+export PATH='\''/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env'\''
+export CONDA_PROMPT_MODIFIER='\''(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '\''
+export CONDA_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python'\''
+export CONDA_PREFIX_1='\''/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3'\'''
+++ PS1='(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '
+++ export PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ PATH=/usr/lpp/mmfs/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3:/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env/bin:/bask/apps/system/software/slurm-helpers:/bask/apps/system/software/slurm-interactive-jobs/stubl/bin:/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/condabin:/bask/homes/r/ropj6012/.local/bin:/bask/homes/r/ropj6012/bin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+++ export CONDA_PREFIX=/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
+++ CONDA_PREFIX=/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
+++ CONDA_DEFAULT_ENV=/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env
+++ export 'CONDA_PROMPT_MODIFIER=(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '
+++ CONDA_PROMPT_MODIFIER='(/bask/projects/p/phwq4930-renal-canc/conda_env/ovseg_env) '
+++ export CONDA_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
+++ CONDA_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python
+++ CONDA_PYTHON_EXE=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3/bin/python
+++ export CONDA_PREFIX_1=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3
+++ CONDA_PREFIX_1=/bask/apps/test/EL8-ice/software/Miniconda3/4.10.3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python gpu_manager.py 1 stage1_train_Xmm_HPC_ultrahighprec.py coreg_ncct 10 4 0.01
+  0%|          | 0/100 [00:00<?, ?it/s] 12%|█▏        | 12/100 [00:00<00:00, 101.61it/s] 23%|██▎       | 23/100 [00:00<00:00, 83.51it/s]  35%|███▌      | 35/100 [00:00<00:00, 94.12it/s] 50%|█████     | 50/100 [00:00<00:00, 112.26it/s] 62%|██████▏   | 62/100 [00:00<00:00, 97.10it/s]  73%|███████▎  | 73/100 [00:00<00:00, 95.79it/s] 84%|████████▍ | 84/100 [00:00<00:00, 98.95it/s] 95%|█████████▌| 95/100 [00:01<00:00, 85.66it/s]100%|██████████| 100/100 [00:01<00:00, 91.34it/s]
+  0%|          | 0/16 [00:00<?, ?it/s] 31%|███▏      | 5/16 [00:00<00:00, 42.67it/s] 62%|██████▎   | 10/16 [00:00<00:00, 39.96it/s] 94%|█████████▍| 15/16 [00:00<00:00, 40.98it/s]100%|██████████| 16/16 [00:00<00:00, 39.11it/s]
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 1379.90it/s]
