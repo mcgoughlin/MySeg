@@ -14,7 +14,7 @@ spacing = float(sys.argv[2])
 
 preprocessed_name = '{}mm_distmaps'.format(spacing)
 
-lb_classes = [1]
+lb_classes = [1,2]
 
 target_spacing=[spacing]*3
 kits19ncct_dataset_properties ={
